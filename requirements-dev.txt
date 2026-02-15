@@ -1,0 +1,15 @@
+# Development dependencies
+-r requirements.txt
+
+# Code quality
+black>=24.0.0
+ruff>=0.1.0
+mypy>=1.8.0
+
+# Testing extras
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
